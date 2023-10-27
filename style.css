@@ -43,11 +43,11 @@ form button {
   font-size: 1.8rem;
   border: none;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 form button {
-  color: green;
+  color: rgb(10, 90, 10);
   background: white;
   cursor: pointer;
   transition: all 0.3 ease;
@@ -56,7 +56,7 @@ form button {
 
 form button:hover {
   color: white;
-  background: rgb(255, 200, 0);
+  background: rgb(237, 215, 138);
 }
 
 .fa-plus-circle {
@@ -78,14 +78,14 @@ form button:hover {
 .todo {
   margin: 0.5rem;
   padding-left: 0.5rem;
-  background: white;
+  background: rgb(173, 209, 234);
   color: black;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 .todo li {
@@ -94,7 +94,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  color: white;
+  color: rgb(200, 195, 195);
   border: none;
   padding: 1rem;
   cursor: pointer;
@@ -102,13 +102,13 @@ form button:hover {
 }
 
 .complete-btn {
-  background: rgb(255, 200, 0);
+  background: rgb(118, 99, 31);
 }
 
 .trash-btn {
   border-top-right-radius: 1.75rem;
   border-bottom-right-radius: 1.75rem;
-  background: rgb(250, 7, 7);
+  background: rgb(63, 74, 36);
 }
 
 .todo-item {
@@ -165,6 +165,6 @@ select {
 }
 
 .select::hover::after {
-  background: white;
+  background: rgb(241, 178, 178);
   color: rgb(255, 200, 0);
 }
